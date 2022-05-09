@@ -69,6 +69,12 @@ int main() {
     Derived d; // compiler error
     Final f; // ok
 
+	// 03. test
+	{
+		A oa;
+		oa.fun();
+	}
+
 	return 0;
 }
 
